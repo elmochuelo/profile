@@ -1,0 +1,85 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background-color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-color: #807A7B;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #868081;
+}
+
+p{
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-color: #807A7B;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.cards {
+  background-color: white
+  width: 600px;
+  margin: 10px auto;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-gray {
+  background-color: #B7B1B2;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
